@@ -1,2 +1,2 @@
-FROM rjrivero/lxde-vnc
+FROM dorowu/ubuntu-desktop-lxde-vnc
 EXPOSE 6080
