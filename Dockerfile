@@ -1,2 +1,2 @@
-FROM dorowu/ubuntu-desktop-lxde-vnc
+FROM mask859/xfce4-novnc
 EXPOSE 6080
