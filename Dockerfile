@@ -1,2 +1,2 @@
-FROM yangxuan8282/alpine-xfce4-novnc
+FROM dorowu/ubuntu-desktop-lxde-vnc
 EXPOSE 6080
