@@ -1,7 +1,7 @@
 FROM consol/ubuntu-xfce-vnc
-USER 0
+USER root
 RUN apt update && apt install sudo -y
 RUN echo "default ALL=(ALL:ALL) ALL" >> /etc/sudoers
-USER 1000
+USER default
 EXPOSE 6901
 EXPOSE 8888
